@@ -1,0 +1,25 @@
+{
+    "name": "quanzo/x51-shortcode",
+    "description": "Implementation shortcodes",
+	"version": "1.0.0",
+    "authors": [
+        {
+            "name": "Quanzo",
+            "email": "iquanzo@gmail.com"
+        }
+    ],
+    "keywords": [
+		"shortcode"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+		"quanzo/x51-functions": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "x51\\classes\\shortcode\\": "src//",
+        }
+    }
+}
