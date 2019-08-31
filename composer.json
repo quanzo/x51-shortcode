@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "x51\\classes\\shortcode\\": "src//",
+            "x51\\classes\\shortcode\\": "src//"
         }
     }
 }
