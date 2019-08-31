@@ -800,14 +800,14 @@ protected function wp_kses_hair_parse($attr) { //+
 	if (defined('BX_ROOT')) {
 		array_unshift(
 			$arDirs,
-			$_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH.'/shortcode/',			
+			$_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH.'/shortcode/'
 		);
 		$lockInclude(__DIR__.'/../lib/bitrix.php');
 	}
 	if (defined('YII_ENV')) {
 		array_unshift(
 			$arDirs,
-			\Yii::getAlias('@app').'/shortcode/',			
+			\Yii::getAlias('@app').'/shortcode/'
 		);
 		$lockInclude(__DIR__.'/../lib/yii2.php');
 	}	
